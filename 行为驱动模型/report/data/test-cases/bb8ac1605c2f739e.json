@@ -1,0 +1,99 @@
+{
+  "uid" : "bb8ac1605c2f739e",
+  "name" : "技术顾问预约测试",
+  "historyId" : "055d37b4049f83322c938f55c672dd19",
+  "time" : {
+    "start" : 1600834184951,
+    "stop" : 1600834196637,
+    "duration" : 11686
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When 输入姓名 \"tynam\"、电话 \"13666666666\"、邮箱 \"tynam.yang@grapecity.com\"、公司全称 \"西安葡萄城信息技术有限公司\"、职务 \"技术爱好者\"、感兴趣产品 \"活字格低代码开发平台\"、内容描述 \"学习使用\" 然后进行预约",
+      "time" : {
+        "start" : 1600834184953,
+        "stop" : 1600834196625,
+        "duration" : 11672
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then 技术顾问预约成功",
+      "time" : {
+        "start" : 1600834196626,
+        "stop" : 1600834196637,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "技术顾问预约测试"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f7a366ca5fc3f17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600573764477,
+        "stop" : 1600573774463,
+        "duration" : 9986
+      }
+    }, {
+      "uid" : "5af01825af2ee15c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=85.0.4183.102)\n\n",
+      "time" : {
+        "start" : 1600261725691,
+        "stop" : 1600261734431,
+        "duration" : 8740
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb8ac1605c2f739e.json",
+  "parameterValues" : [ ]
+}

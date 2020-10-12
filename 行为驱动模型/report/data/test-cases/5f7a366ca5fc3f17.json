@@ -1,0 +1,80 @@
+{
+  "uid" : "5f7a366ca5fc3f17",
+  "name" : "技术顾问预约测试",
+  "historyId" : "055d37b4049f83322c938f55c672dd19",
+  "time" : {
+    "start" : 1600573764477,
+    "stop" : 1600573774463,
+    "duration" : 9986
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When 输入姓名 \"tynam\"、电话 \"13666666666\"、邮箱 \"tynam.yang@grapecity.com\"、公司全称 \"西安葡萄城信息技术有限公司\"、职务 \"技术爱好者\"、感兴趣产品 \"活字格低代码开发平台\"、内容描述 \"学习使用\" 然后进行预约",
+      "time" : {
+        "start" : 1600573764480,
+        "stop" : 1600573774456,
+        "duration" : 9976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then 技术顾问预约成功",
+      "time" : {
+        "start" : 1600573774457,
+        "stop" : 1600573774463,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "技术顾问预约测试"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f7a366ca5fc3f17.json",
+  "parameterValues" : [ ]
+}

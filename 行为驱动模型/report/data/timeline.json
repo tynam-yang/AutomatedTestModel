@@ -1,0 +1,29 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "技术顾问预约测试",
+    "uid" : "bb8ac1605c2f739e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600834184951,
+      "stop" : 1600834196637,
+      "duration" : 11686
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "打开技术顾问预约网站",
+    "uid" : "bb65b46171416328",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600834170591,
+      "stop" : 1600834184950,
+      "duration" : 14359
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

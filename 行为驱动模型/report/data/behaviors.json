@@ -1,0 +1,33 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "技术顾问预约测试",
+    "children" : [ {
+      "name" : "打开技术顾问预约网站",
+      "uid" : "bb65b46171416328",
+      "parentUid" : "8b1ea7dae6b2ba5c86a81f0063579734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600834170591,
+        "stop" : 1600834184950,
+        "duration" : 14359
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "技术顾问预约测试",
+      "uid" : "bb8ac1605c2f739e",
+      "parentUid" : "8b1ea7dae6b2ba5c86a81f0063579734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600834184951,
+        "stop" : 1600834196637,
+        "duration" : 11686
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8b1ea7dae6b2ba5c86a81f0063579734"
+  } ]
+}

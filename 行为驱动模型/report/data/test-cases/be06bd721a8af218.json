@@ -1,0 +1,80 @@
+{
+  "uid" : "be06bd721a8af218",
+  "name" : "打开技术顾问预约网站",
+  "historyId" : "65f644154d65ac19acf5033c0084c268",
+  "time" : {
+    "start" : 1600573757997,
+    "stop" : 1600573764476,
+    "duration" : 6479
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "When 打开访问的网页 \"https://www.grapecity.com.cn/applyonline\"",
+      "time" : {
+        "start" : 1600573758002,
+        "stop" : 1600573764462,
+        "duration" : 6460
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then 进入了技术顾问预约网站成功",
+      "time" : {
+        "start" : 1600573764462,
+        "stop" : 1600573764476,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "技术顾问预约测试"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be06bd721a8af218.json",
+  "parameterValues" : [ ]
+}

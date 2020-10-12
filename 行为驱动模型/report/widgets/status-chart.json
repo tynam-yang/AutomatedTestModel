@@ -1,0 +1,21 @@
+[ {
+  "uid" : "bb8ac1605c2f739e",
+  "name" : "技术顾问预约测试",
+  "time" : {
+    "start" : 1600834184951,
+    "stop" : 1600834196637,
+    "duration" : 11686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb65b46171416328",
+  "name" : "打开技术顾问预约网站",
+  "time" : {
+    "start" : 1600834170591,
+    "stop" : 1600834184950,
+    "duration" : 14359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
